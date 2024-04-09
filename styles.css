@@ -1,0 +1,77 @@
+/* Estilos globales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://img.freepik.com/foto-gratis/paisaje-nocturno-galaxia_23-2148895320.jpg?w=826&t=st=1712377679~exp=1712378279~hmac=169a8f2a702baa48ec37054aaee1997ece8d21de1a00b4cf127e51d4a7cf9ec6');
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Color de texto global */
+}
+
+/*Estilos para el header */
+header {
+    background-color: rgb(0, 0, 0); /* Color de fondo oscuro */
+    padding: 15px 50px; /* Espaciado interno del header */
+    display: flex; /* Utilizar flexbox para organizar elementos */
+    justify-content: space-between; /* Distribuir elementos horizontalmente */
+    align-items: center; /* Centrar verticalmente los elementos */
+}
+
+/* Estilos para la logo */
+.logo {
+    display: flex; /* Utilizar flexbox para organizar elementos */
+    align-items: center; /* Centrar verticalmente los elementos */
+}
+
+.logo img {
+    height: 140px; /* Tamaño del logo */
+    width: auto; /* Ancho automático */
+    margin-right: 60px; /* Espacio a la derecha del logo */
+}
+
+/* Estilos para la navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Utilizar flexbox para organizar elementos */
+}
+
+nav ul li {
+    margin-left: 30px; /* Espacio entre elementos */
+}
+
+nav ul li:first-child {
+    margin-left: 0; /* Eliminar margen izquierdo del primer elemento */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Color de letra blanco */
+    font-size: 18px; /* Tamaño de la letra */
+    transition: all 0.3s ease;
+    border-radius:  10px;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Cambio de color al pasar el cursor */
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 0;
+    text-align: center;
+}

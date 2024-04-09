@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espacio y satélites </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="Imagenes\logo.png" alt="Logo de la página">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="https://historicjournals.itu.int/viewer/737?viewer=picture#page=30&viewer=picture&o=&n=0&q=">Periodico</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="content-section">
+            <div class="content">
+                <h2>Espacio y satélites</h2>
+                <p>La era espacial comenzó el 4 de octubre de 1957 con el lanzamiento por la Unión Soviética del primer satélite artificial del mundo, el Sputnik-1. Poco después, se empezaron a utilizar los satélites para las telecomunicaciones. En 1960, Estados Unidos lanza el Echo-1 pasivo, y en 1962 se lanza el Telstar-1​ (un proyecto conjunto de Francia, Reino Unido y Estados Unidos), el primer satélite activo de comunicaciones de retransmisión directa. El 23 de julio de ese año los habitantes de ambos lados del Atlántico puederon ver un programa de televisión en directo al mismo tiempo.</p>
+            </div>
+        </section>
+    
+        <section class="content-section">
+            <div class="image">
+                <img src="https://www.itu.int/en/history/ImagesOverviewOfITUsHistory/Telstar-1-NASA.jpg" alt="Imagen 2">
+                <p class="description">El satélite de comunicaciones Telstar-1 con la nebulosa de América del Norte en el fondo  (Fuente: NASA)</p>
+            </div>
+            <div class="content">
+                <p>Era necesario seguir el movimiento de estos satélites al atravesar el cielo; surgió una idea más eficiente y económica, a saber, la del satélite geoestacionario de comunicaciones, propuesto por primera vez por el escritor Arthur C. Clarke​ en 1945. En 1964, tras experimentar con satélites geosincrónicos, se lanzó el primer satélite geoestacionario (Syncom-3).</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="content">
+                <p>La órbita geoestacionaria alrededor de la Tierra, al igual que el espectro de radiofrecuencias, es un recurso natural limitado y, por ende, ​también debe compartirse equitativamente y sin causar interferencias. En 1963, la UIT celebró una Conferencia Administrativa Extraordinaria para las comunicaciones espaciales, en la que se asignaron frecuencias a los diversos servicios. En conferencias posteriores se efectuaron nuevas atribuciones y se adoptaron las normas que rigen la utilización de las posiciones orbitales de los satélites.</p>
+            </div>
+            <div class="image">
+                <img src="https://www.itu.int/en/history/ImagesOverviewOfITUsHistory/1963-SpaceConf-U-Thant.jpg" alt="Imagen 1">
+                <p class="description">El Secretario General de las Naciones Unidas, U Thant, dirigiéndose a la Conferencia de la UIT sobre Radiocomunicaciones Espaciales en Ginebra desde Nueva York a través de Telstar (7 de octubre de 1963) (Fuente: ITU)</p>
+            </div>
+        </section>
+        
+        <section class="content-section">
+            <div class="image">
+                <img src="https://www.itu.int/en/history/ImagesOverviewOfITUsHistory/INMARSAT-Satellite-Phone-970055.jpg" alt="Imagen 2">
+                <p class="description">Equipo de telefonía por satlelite utilizado tras producirse una catástrofe 
+                    (Fuente: INMARSAT)</p>
+            </div>
+            <div class="content">
+                <p>Además de servir de enlace entre los sistemas de radiodifusión y los sistemas telefónicos alámbricos, y de proporcionar servicios de navegación, los satélites también se utilizan en las comunicaciones móviles. Los teléfonos satelitales, por ejemplo, pueden resultar esenciales en situaciones de emergencia o en zonas sin acceso a redes alternativas. En 1992, la UIT efectuó por vez primera atribuciones de espectro para atender a las necesidades de las comunicaciones personales móviles mundiales por satélite (GMPCS).</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="content">
+                <p>La UIT también atiende a las necesidades de los radioastrónomos y otros científicos espaciales, quienes llevan a cabo una labor tan importante como la predicción meteorológica y la vigilancia del medio ambiente y el clima de la Tierra. El ca​mbio climático es otro de los principales temas de la labor de la UIT, al igual que las comunicaciones de emerg​encia, por ejemplo, los sistemas de alerta de catástrofes por satélite​. </p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="image">
+                <img src="https://www.itu.int/en/history/ImagesOverviewOfITUsHistory/WMO-GOS-fullsize.jpg" alt="Imagen 2">
+                <p class="description">Sistema Mundial de Observación (GOS) de la OMM (Fuente: OMM)</p>
+            </div>
+        </section>
+        <!-- Repetir las secciones anteriores para cada texto e imagen -->
+    </main>
+    
+    <footer>
+        <p>Avances saltelitales .</p>
+    </footer>
+    <script>
+        // Obtener el elemento select
+        var selectElement = document.getElementById('href');
+
+        // Agregar un evento de clic al select
+        selectElement.addEventListener('change', function() {
+            // Obtener el valor seleccionado
+            var selectedOption = this.value;
+
+            // Redirigir a la URL seleccionada
+            if (selectedOption) {
+                window.location.href = selectedOption;
+            }
+        });
+    </script>
+</body>
+</html>
